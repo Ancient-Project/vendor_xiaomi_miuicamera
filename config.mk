@@ -12,7 +12,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/xiaomi/miuicamera/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64)
 
 PRODUCT_PACKAGES += \
-    ANXCamera
+    ANXCamera \
+    ANXCameraOverlay
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.miui.notch=1
