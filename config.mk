@@ -1,6 +1,8 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/miuicamera
 
+RELAX_USES_LIBRARY_CHECK := true
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/xiaomi/miuicamera/proprietary/system/bin,$(TARGET_COPY_OUT_SYSTEM)/bin) \
     $(call find-copy-subdir-files,*,vendor/xiaomi/miuicamera/proprietary/system/etc,$(TARGET_COPY_OUT_SYSTEM)/etc) \
